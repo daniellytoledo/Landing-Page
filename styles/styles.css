@@ -8,5 +8,23 @@
 }
 
 body {
-    background-color: #CD5C5C;
+    background-color: ##ffffff;
+}
+
+.btn-default {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffd9e3;
+    border-radius: 12px;
+    padding: 10 14px;
+    font-weight: 600;
+    box-shadow: #ffc6d5;
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+
+.btn-default:hover {
+    background-color: #ffc6d5;
 }

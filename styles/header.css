@@ -11,8 +11,8 @@ header {
 }
 
 #nav_bolo {
-    font-size: 24px;
-    color: #FFC0CB;
+    font-size: 20px;
+    color: #ffb3c8;
 }
 
 #nav_list {
@@ -23,11 +23,33 @@ header {
 
 .nav-item a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-weight: 600;
+    color: #000000;
+    font-weight: 400;
 }
 
 .nav-item.active a {
-    color: #FFC0CB;
-    border-bottom: 3px solid #FFC0CB;
+    color: #000000;
+    border-bottom: 3px solid #ffb3c8;
+}
+
+#mobile_btn {
+    display: none;
+}
+
+#mobile_menu {
+    display: none;
+}
+
+@media screen and (max-width: 1170px) {
+    #nav_list,
+    #navbar .btn-default {
+        display: none;
+    }
+    #mobile_btn {
+        display: black;
+        border: none;
+        background-color: transparent;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
 }
