@@ -44,40 +44,47 @@ header {
 @media screen and (max-width: 1170px) {
     #nav_list,
     #navbar .btn-default {
-        display: none;
+    display: none;
     }
-
-    #mobile_btn {
-        display: block;
-        border: none;
-        background-color: transparent;
-        font-size: 1.2rem;
-        cursor: pointer;
-    }
-
-    #mobile_menu.active {
+        #mobile_menu.active {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         text-align: center;
-        padding: 20px;
+        position: fixed;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: white;
+        padding: 20px;            
+        border-radius: 10px;
+        z-index: 1000;
+        }
+    
+        #mobile_nav_list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+    
+        #mobile_menu .btn-default {
+            display: block;
+            margin-top: 20px;
+        }
+        #mobile_btn {
+            display: block;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 1.8rem;
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: #1d1d1d;
+        }
     }
-
-    #mobile_nav_list {
-        display: flex;
-        flex-direction: column;
-        gap: 12px;
-        margin: 12px 0px;
-        padding: 0;
-    }
-
-    #mobile_nav_list .nav-item {
-        list-style: none;
-    }
-
-    #mobile_menu .btn-default {
-        display: block;
-        margin-top: 20px;
-    }
-}
