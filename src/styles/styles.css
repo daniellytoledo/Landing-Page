@@ -10,7 +10,11 @@
 }
 
 body {
-    background-color: #ffffff; /* cor do fundo */
+    background-color: #fdf0fb; /* cor do fundo */
+}
+
+section {
+    padding: 28px 8%;
 }
 
 .btn-default { 
@@ -31,3 +35,23 @@ body {
 .btn-default:hover {
     background-color: #ffc6d5;
 }
+
+.social-media-buttons {
+    display: flex;
+    gap: 18px;
+}
+
+.social-media-buttons a {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 45px;
+    height: 40px;
+    background-color: #fff;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #1d1d1d;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.01);
+}
+
