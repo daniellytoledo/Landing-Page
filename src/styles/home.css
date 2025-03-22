@@ -21,6 +21,10 @@
     color: #faaabf;
 }
 
+#testimonials .section-title {
+    color: #f67d9e
+}
+
 #cta .description {
     font-size: 1.2rem;
 }
@@ -49,7 +53,7 @@
     background-color: #ffffff;
     padding: 8px 14px;
     font-weight: 500;
-    box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0);
+    box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
 }
 
