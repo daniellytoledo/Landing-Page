@@ -1,0 +1,44 @@
+/* Estilo para o contêiner do texto */
+#localizacao .text-container {
+    display: flex;
+    flex-direction: column; /* Organiza os itens em coluna */
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    text-align: center; /* Centraliza o texto */
+    margin-top: 250px; /* Ajuste o espaçamento superior conforme necessário */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+/* Estilo para o título */
+#localizacao .section-title {
+    font-size: 2rem;
+    color: #a34b97;
+    margin-bottom: 10px; /* Espaçamento inferior */
+}
+
+/* Estilo para a descrição */
+#descript {
+    font-size: 17px;
+    color: #1d1d1d;
+    margin-top: 0; /* Remove o espaçamento superior */
+}
+
+.map-container {
+    margin-top: 10px;
+    position: relative;
+    overflow: hidden;
+    padding-top: 40%; /* Proporção 16:9 56.25% */
+}
+    
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 60px;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    background-color: #fff;
+    padding: 20px;
+    border: 30px;
+    box-shadow: 0px 0px 12px 4px rgbd (0, 0, 0, 0.1);
+}
