@@ -35,6 +35,7 @@ section {
 }
 
 .btn-default { 
+    text-decoration: none;
     border: none; /* remove a borda padrão */
     display: flex; /* define o tipo do "container" */
     align-items: center; /* alinha o texto no centro */
