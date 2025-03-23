@@ -12,7 +12,7 @@ header {
 
 #nav_bolo {
     font-size: 22px;
-    color: #A74499;
+    color: #a34b97;
 }
 
 #nav_list {
@@ -23,14 +23,14 @@ header {
 
 .nav-item a {
     text-decoration: none;
-    color: #1d1d1dad;
+    color: #9f1c8ead;
     font-weight: 600;
 }
 
 .nav-item.active a {
     text-decoration: none;
     color: #1d1d1d;
-    border-bottom: 3px solid #faaabf;
+    border-bottom: 3px solid #a34b97;
 }
 
 #mobile_btn {
