@@ -9,6 +9,15 @@
 @import url('testimonials.css');
 @import url('footer.css');
 
+/* cores usada: 
+#fdf0fb - rosa claro (background)
+#faaabf - rosa
+#a34b97 - rosa escuro pra link
+#9f1c8ead - roxo escuro (navbar)
+#a3669b - roxo
+#FFC200 - amarelo
+*/
+
 * {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -40,7 +49,7 @@ section {
     display: flex; /* define o tipo do "container" */
     align-items: center; /* alinha o texto no centro */
     justify-content: center; /* controla o alinhamento dos itens dentro do "container" */
-    background-color: #a3669b;  /* cor do fundo do botão/container */
+    background-color: #FFC200;  /* cor do fundo do botão/container */
     border-radius: 12px; /* remove bordas arredondadas */ 
     padding: 10px; /* espaçamento interno */
     font-weight: 600; /* grossura da font */
