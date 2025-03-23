@@ -49,6 +49,10 @@ section {
     transition: background-color 0.3s ease; /* adiciona transição suave na cor de fundo */
 }
 
+a {
+    text-decoration: none; /* Remove sublinhado do link do navbar peça aqui */
+}
+
 /* adiciona o efeito ao passar o mouse */
 .btn-default:hover {
     background-color: #faaabf;
