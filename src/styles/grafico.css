@@ -1,0 +1,15 @@
+#grafico {
+  display: flex;
+  justify-content: center;  /* Centraliza horizontalmente */
+  align-items: center;      /* Centraliza verticalmente */
+  flex-direction: column;   /* Organiza em coluna (título em cima, imagem embaixo) */
+  text-align: center;       /* Centraliza textos */
+  padding: 20px;
+}
+
+#grafico img {
+  max-width: 80%;        /* a imagem não ultrapassa 80% da largura da tela */
+  height: auto;          /* mantém proporção */
+  margin-top: 15px;      /* Ajuste o espaçamento superior conforme necessário */
+  border-radius: 5px;   /* cantos arredondados */
+}
