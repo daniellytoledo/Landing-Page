@@ -1,4 +1,6 @@
 # Projeto Delícias da Sisi
 
-This is a project for my higher technical training as a Systems Analyst and Developer.
-Este é um projeto para o meu curso superior como Analista e Desenvolvedora de Sistema.
+Este é o projeto que irei usar durante meu curso de Análise e Desenvolvimento de Sistemas. O resultado dele pode ser visto neste link que o próprio GitHub disponibiliza:
+This is a project for my Higher Technical Degree, System Analyst Developer. The result can be seen at this link that GitHub itself provides:
+
+>> https://daniellytoledo.github.io/Landing-Page/
